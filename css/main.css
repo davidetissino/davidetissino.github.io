@@ -1682,6 +1682,16 @@ a img {
     justify-content: space-between;
 }
 
+.certificates {
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: -3%;
+    justify-content:stretch;
+}
+
 .user p {
     font-size: 15px
 }
