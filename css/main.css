@@ -563,6 +563,14 @@ template {
     content: "\f081"
 }
 
+.fa-x-twitter:before {
+    content: "\f081"
+}
+
+.fa-x-twitter:after {
+    content: "\f081"
+}
+
 .fa-linkedin-square:before {
     content: "\f08c"
 }
@@ -1703,6 +1711,15 @@ a img {
     justify-content: space-between;
 }
 
+.skill {
+    text-align:center;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .certificates {
     text-align: center;
     font-size: 20px;
@@ -1977,8 +1994,8 @@ footer {
 }
 
 .px-2 {
-    padding-left: .5rem;
-    padding-right:.5rem
+    padding-left: 1rem;
+    padding-right:1rem
 }
 
 .\[\&_\[cmdk-group-heading\]\]\:px-2 [cmdk-group-heading] {
@@ -2002,7 +2019,7 @@ footer {
 }
 
 .text-xs {
-    font-size: .75rem;
+    font-size: 1rem;
     line-height:1rem
 }
 
@@ -2083,6 +2100,7 @@ footer {
 .hover\:bg-primary\/60:hover {
     background-color:hsl(var(--primary)/.6)
 }
+
 
 
 
