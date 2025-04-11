@@ -1476,6 +1476,14 @@ a img {
     cursor: pointer;
 }
 
+
+.shaded-text-alt {
+    text-decoration: none;
+    color: #261a1a;
+    background-color: #faf8f8;
+    cursor: pointer;
+}
+
 .shaded-text:hover,
 .header-links .link:hover {
     text-decoration: underline;
