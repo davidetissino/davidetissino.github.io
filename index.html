@@ -162,45 +162,95 @@
     <div style="text-align:center">
       <h1 align="center" style="margin-top:2%; color: #261a1a;">Skills</h1>
     </div>
-    <div>
-      <div class="skill">
-        <div style="font-size: 70%" class="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-primary/80 text-primary-foreground hover:bg-primary/60">
-          Web Scraping
-        </div>
-        <div style="font-size: 70%" class="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-primary/80 text-primary-foreground hover:bg-primary/60">
-          Data Cleaning & Analysis
-        </div>
-        <div style="font-size: 70%" class="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-primary/80 text-primary-foreground hover:bg-primary/60">
-          Data Visualization
-        </div>
-        <div style="font-size: 70%" class="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-primary/80 text-primary-foreground hover:bg-primary/60">
-          Data Applications
+    <div class="skills-container">
+      <div class="skill-category">
+        <h3 style="color: #444343; margin-bottom: 15px;">Data Science & Analytics</h3>
+        <div class="skill-group">
+          <div style="font-size: 75%" class="skill-badge">
+            <i class="fas fa-chart-line" style="margin-right: 5px;"></i>
+            Web Scraping
+          </div>
+          <div style="font-size: 75%" class="skill-badge">
+            <i class="fas fa-database" style="margin-right: 5px;"></i>
+            Data Cleaning & Analysis
+          </div>
+          <div style="font-size: 75%" class="skill-badge">
+            <i class="fas fa-chart-bar" style="margin-right: 5px;"></i>
+            Data Visualization
+          </div>
+          <div style="font-size: 75%" class="skill-badge">
+            <i class="fas fa-laptop-code" style="margin-right: 5px;"></i>
+            Data Applications
+          </div>
         </div>
       </div>
-      <br>
-      <hr width="20%" style="color: #9f95d8;">
-      <br>
-      <div class="skill">
-        <div style="font-size: 70%" class="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-primary/80 text-primary-foreground hover:bg-primary/60">
-          Start-ups
-        </div>
-        <div style="font-size: 70%" class="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-primary/80 text-primary-foreground hover:bg-primary/60">
-          Sourcing
-        </div>
-        <div style="font-size: 70%" class="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-primary/80 text-primary-foreground hover:bg-primary/60">
-          Venture Capital
-        </div>
-        <div style="font-size: 70%" class="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-primary/80 text-primary-foreground hover:bg-primary/60">
-          Investment Decisions
-        </div>
-        <div style="font-size: 70%" class="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-primary/80 text-primary-foreground hover:bg-primary/60">
-          Business Planning
-        </div>
-        <div style="font-size: 70%" class="inline-flex items-center rounded-md border px-2 py-0.5 text-xs font-semibold font-mono transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-nowrap border-transparent bg-primary/80 text-primary-foreground hover:bg-primary/60">
-          MS Office
+
+      <div class="skill-category" style="margin-top: 30px;">
+        <h3 style="color: #444343; margin-bottom: 15px;">Business & Strategy</h3>
+        <div class="skill-group">
+          <div style="font-size: 75%" class="skill-badge">
+            <i class="fas fa-rocket" style="margin-right: 5px;"></i>
+            Start-ups
+          </div>
+          <div style="font-size: 75%" class="skill-badge">
+            <i class="fas fa-search" style="margin-right: 5px;"></i>
+            Sourcing
+          </div>
+          <div style="font-size: 75%" class="skill-badge">
+            <i class="fas fa-chart-pie" style="margin-right: 5px;"></i>
+            Venture Capital
+          </div>
+          <div style="font-size: 75%" class="skill-badge">
+            <i class="fas fa-balance-scale" style="margin-right: 5px;"></i>
+            Investment Decisions
+          </div>
+          <div style="font-size: 75%" class="skill-badge">
+            <i class="fas fa-tasks" style="margin-right: 5px;"></i>
+            Business Planning
+          </div>
+          <div style="font-size: 75%" class="skill-badge">
+            <i class="fas fa-file-excel" style="margin-right: 5px;"></i>
+            MS Office
+          </div>
         </div>
       </div>
     </div>
+
+    <style>
+      .skills-container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      
+      .skill-category {
+        text-align: center;
+      }
+      
+      .skill-group {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        justify-content: center;
+      }
+      
+      .skill-badge {
+        display: inline-flex;
+        align-items: center;
+        padding: 8px 16px;
+        background: linear-gradient(135deg, #6e8efb 0%, #a777e3 100%);
+        color: white;
+        border-radius: 20px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+      }
+      
+      .skill-badge:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      }
+    </style>
+  </section>
 
     <hr style="border-top: 2px solid #a9c2fca8; margin-top: 40px;">
   </section>
