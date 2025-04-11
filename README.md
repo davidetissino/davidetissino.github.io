@@ -1,1 +1,1 @@
-Codebase for my portfolio website at www.davidetissino.github.coms
+Codebase for my portfolio website at davidetissino.github.io
