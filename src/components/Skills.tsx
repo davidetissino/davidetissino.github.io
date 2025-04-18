@@ -1,5 +1,5 @@
-
 import { motion } from "framer-motion";
+import { Code2, Database, ChartBar, Laptop, BrainCircuit, Gem } from "lucide-react";
 
 const skillCategories = [
   {
@@ -28,37 +28,35 @@ const skillCategories = [
 
 const Skills = () => {
   return (
-    <section id="skills" className="py-20">
+    <section id="skills" className="py-20 relative">
       <div className="max-w-6xl mx-auto px-4">
         <motion.h2 
-          className="text-3xl font-bold mb-12 text-gradient text-center"
+          className="text-3xl font-bold mb-12 text-gradient text-center flex items-center justify-center gap-2"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
         >
-          Skills
+          <Code2 className="w-8 h-8" /> Skills
         </motion.h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {skillCategories.map((category, categoryIndex) => (
             <motion.div
               key={category.title}
-              className="glass-card p-6 rounded-lg"
+              className="code-block relative"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: categoryIndex * 0.2 }}
               viewport={{ once: true }}
             >
-              <h3 className="text-xl font-semibold mb-6 flex items-center">
-                <i className={`fas fa-${category.icon} mr-3`}></i>
-                {category.title}
-              </h3>
-              
+              <div className="absolute -top-3 left-4 px-2 bg-background text-blue-400 text-sm">
+                {category.title}.js
+              </div>
               <div className="grid grid-cols-2 gap-4">
                 {category.skills.map((skill, index) => (
                   <motion.div
                     key={skill.name}
-                    className="flex items-center p-3 rounded-lg bg-white/5 hover:bg-white/10 transition-colors"
+                    className="flex items-center p-3 rounded-lg bg-blue-950/30 hover:bg-blue-950/40 transition-colors"
                     initial={{ opacity: 0, x: -20 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ delay: index * 0.1 + categoryIndex * 0.2 }}
