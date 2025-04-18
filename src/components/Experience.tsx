@@ -31,11 +31,25 @@ const experiences = [
   },
   {
     company: "Silicon Valley Fellowship",
+    role: "Fellow",
+    period: "June 2022 - August 2022",
+    description: "Participated in a selective program connecting students with Silicon Valley startups.",
+    achievements: [
+      "Networked with industry professionals and founders",
+      "Gained insights into the startup ecosystem"
+    ],
     logo: "./assets/img/SVF.png",
     link: "https://www.siliconvalleyfellowship.com"
   },
   {
     company: "BSVC",
+    role: "Member",
+    period: "January 2021 - May 2022",
+    description: "Participated in student-led venture capital activities.",
+    achievements: [
+      "Analyzed potential investment opportunities",
+      "Contributed to investment decision-making processes"
+    ],
     logo: "./assets/img/BSVC.png",
     link: "https://www.bsvc.club"
   }
@@ -82,22 +96,26 @@ const Experience = () => {
                   <div>
                     <h3 className="text-xl font-semibold text-gradient">{exp.role}</h3>
                     <p className="text-cyan-400">{exp.company}</p>
-                    <div className="flex items-center text-gray-400 text-sm mt-1">
-                      <Calendar className="h-4 w-4 mr-2" />
-                      {exp.period}
-                    </div>
+                    {exp.period && (
+                      <div className="flex items-center text-gray-400 text-sm mt-1">
+                        <Calendar className="h-4 w-4 mr-2" />
+                        {exp.period}
+                      </div>
+                    )}
                   </div>
                   
-                  <p className="text-gray-300">{exp.description}</p>
+                  {exp.description && <p className="text-gray-300">{exp.description}</p>}
                   
-                  <ul className="space-y-2">
-                    {exp.achievements.map((achievement, i) => (
-                      <li key={i} className="text-gray-400 flex items-start">
-                        <span className="text-cyan-400 mr-2">›</span>
-                        {achievement}
-                      </li>
-                    ))}
-                  </ul>
+                  {exp.achievements && exp.achievements.length > 0 && (
+                    <ul className="space-y-2">
+                      {exp.achievements.map((achievement, i) => (
+                        <li key={i} className="text-gray-400 flex items-start">
+                          <span className="text-cyan-400 mr-2">›</span>
+                          {achievement}
+                        </li>
+                      ))}
+                    </ul>
+                  )}
                 </div>
               </div>
             </motion.div>
