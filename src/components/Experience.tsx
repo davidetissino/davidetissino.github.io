@@ -1,16 +1,31 @@
 
 import { motion } from "framer-motion";
+import { Calendar } from "lucide-react";
 
 const experiences = [
   {
     company: "Levi Strauss & Co.",
     role: "Data Analyst",
+    period: "June 2023 - Present",
+    description: "Developing data products for internal use at European and global level.",
+    achievements: [
+      "Working with SQL, R, and data visualization tools to transform raw data into actionable insights",
+      "Developing automated reporting solutions for key business metrics",
+      "Collaborating with cross-functional teams to identify and implement data-driven solutions"
+    ],
     logo: "./assets/img/LEVIS.jpeg",
     link: "https://www.levistrauss.com"
   },
   {
     company: "Innovis VC",
     role: "Venture Analyst",
+    period: "September 2022 - Present",
+    description: "Analyzing European startups and helping connect them with potential investors.",
+    achievements: [
+      "Performing due diligence and market research for investment opportunities",
+      "Evaluating startups across various sectors and stages",
+      "Building relationships with founders and investors"
+    ],
     logo: "./assets/img/Innovis.png",
     link: "https://www.innovis.vc"
   },
@@ -39,29 +54,53 @@ const Experience = () => {
           Experience
         </motion.h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="space-y-6">
           {experiences.map((exp, index) => (
-            <motion.a
+            <motion.div
               key={exp.company}
-              href={exp.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="glass-card hover-card p-6 rounded-lg flex flex-col items-center"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.1 }}
               viewport={{ once: true }}
+              transition={{ delay: index * 0.1 }}
+              className="glass-card p-6 rounded-lg"
             >
-              <img 
-                src={exp.logo} 
-                alt={exp.company}
-                className="w-16 h-16 object-contain mb-4"
-              />
-              <h3 className="text-lg font-semibold text-white">{exp.company}</h3>
-              {exp.role && (
-                <p className="text-sm text-gray-400 mt-2">{exp.role}</p>
-              )}
-            </motion.a>
+              <div className="flex items-start gap-6">
+                <a 
+                  href={exp.link} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="shrink-0"
+                >
+                  <img 
+                    src={exp.logo} 
+                    alt={exp.company}
+                    className="w-16 h-16 rounded-lg object-contain glass-card p-2"
+                  />
+                </a>
+                
+                <div className="space-y-4 flex-1">
+                  <div>
+                    <h3 className="text-xl font-semibold text-gradient">{exp.role}</h3>
+                    <p className="text-cyan-400">{exp.company}</p>
+                    <div className="flex items-center text-gray-400 text-sm mt-1">
+                      <Calendar className="h-4 w-4 mr-2" />
+                      {exp.period}
+                    </div>
+                  </div>
+                  
+                  <p className="text-gray-300">{exp.description}</p>
+                  
+                  <ul className="space-y-2">
+                    {exp.achievements.map((achievement, i) => (
+                      <li key={i} className="text-gray-400 flex items-start">
+                        <span className="text-cyan-400 mr-2">›</span>
+                        {achievement}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            </motion.div>
           ))}
         </div>
       </div>
