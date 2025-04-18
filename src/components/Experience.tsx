@@ -12,8 +12,8 @@ const experiences = [
       "Project Blue: own and maintain PowerBI dashboards tracking key business metrics of Levi's X Beyonce's 'REIIMAGINE' campaign",
       "Launch Tracker: work with BigQuery and Looker Studio to develop reporting tool tracking Franchise Partners' allocation status for upcoming seasons amid major logistic distruptions and DC transition at European level",
       "LEVI.COM: develop tracking tool focusing on Levi's DTC performance at European level"
-    ],
-    logo: "./assets/img/LEVIS.jpeg",
+    ], 
+    logo: "./img/LEVIS.jpeg",
     link: "https://www.levistrauss.com"
   },
   {
