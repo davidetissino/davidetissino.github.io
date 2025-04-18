@@ -28,7 +28,7 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3 }}
           >
-            Data Analyst at Levi Strauss & Co. | Basketball Analytics Enthusiast
+            Data Analyst @ Levi Strauss & Co. | Basketball Analytics Enthusiast
           </motion.h2>
           
           <motion.p 
@@ -37,8 +37,8 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4 }}
           >
-            Recent Bocconi University graduate with a passion for data analytics and basketball. 
-            Currently working on data products for European and global markets.
+            Recent Bocconi University graduate with a passion for data analytics and programming. Currently working on data products for European and global markets.
+            Passionate about basketball, I'm trying to combine it with data to obtain new insights.
           </motion.p>
           
           <motion.div 
