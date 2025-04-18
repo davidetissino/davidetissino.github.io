@@ -6,12 +6,12 @@ const experiences = [
   {
     company: "Levi Strauss & Co.",
     role: "Data Analyst",
-    period: "June 2023 - Present",
+    period: "September 2024 - Present",
     description: "Developing data products for internal use at European and global level.",
     achievements: [
-      "Working with SQL, R, and data visualization tools to transform raw data into actionable insights",
-      "Developing automated reporting solutions for key business metrics",
-      "Collaborating with cross-functional teams to identify and implement data-driven solutions"
+      "Project Blue: own and maintain PowerBI dashboards tracking key business metrics of Levi's X Beyonce's 'REIIMAGINE' campaign",
+      "Launch Tracker: work with BigQuery and Looker Studio to develop reporting tool tracking Franchise Partners' allocation status for upcoming seasons amid major logistic distruptions and DC transition at European level",
+      "LEVI.COM: develop tracking tool focusing on Levi's DTC performance at European level"
     ],
     logo: "./assets/img/LEVIS.jpeg",
     link: "https://www.levistrauss.com"
