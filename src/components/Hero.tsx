@@ -38,6 +38,7 @@ const Hero = () => {
             transition={{ delay: 0.4 }}
           >
             Recent Bocconi University graduate with a passion for data analytics and programming. Currently working on data products for European and global markets.
+            <br/>
             Passionate about basketball, I'm trying to combine it with data to obtain new insights.
           </motion.p>
           

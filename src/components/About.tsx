@@ -34,7 +34,7 @@ const About = () => {
                 <h2 className="text-2xl font-bold text-gradient">Hi, I'm Davide!👋</h2>
                 <div className="space-y-4 text-gray-300">
                   <p className="font-mono">
-                    const education = "Bachelor's Degree in International Economics and Management";
+                    const interests = "data analytics & science, entrepreneurship, basketball";
                   </p>
                   <p>
                     I recently graduated from Bocconi University, in Milan 🇮🇹. During my academic journey, 
