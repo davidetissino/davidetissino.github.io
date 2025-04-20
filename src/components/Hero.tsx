@@ -28,7 +28,7 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3 }}
           >
-            Data Analyst @ Levi Strauss & Co. | Basketball Analytics Enthusiast
+            Data Analyst @ Levi Strauss & Co. | Sports Analytics Enthusiast
           </motion.h2>
           
           <motion.p 
@@ -39,7 +39,7 @@ const Hero = () => {
           >
             Recent Bocconi University graduate with a passion for data analytics and programming. Currently working on data products for European and global markets.
             <br/>
-            Passionate about basketball, I'm trying to combine it with data to obtain new insights.
+            Passionate about basketball, I'm trying to combine it with data to one day break into the industry.
           </motion.p>
           
           <motion.div 
@@ -48,16 +48,6 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5 }}
           >
-            <Button
-              variant="outline"
-              className="glass-card hover:bg-white/10"
-              asChild
-            >
-              <a href="https://github.com/davidetissino" target="_blank" rel="noopener noreferrer">
-                <Github className="mr-2 h-4 w-4" />
-                GitHub
-              </a>
-            </Button>
             
             <Button
               variant="outline"
@@ -69,7 +59,18 @@ const Hero = () => {
                 LinkedIn
               </a>
             </Button>
-            
+
+            <Button
+              variant="outline"
+              className="glass-card hover:bg-white/10"
+              asChild
+            >
+              <a href="https://github.com/davidetissino" target="_blank" rel="noopener noreferrer">
+                <Github className="mr-2 h-4 w-4" />
+                GitHub
+              </a>
+            </Button>
+
             <Button
               variant="outline"
               className="glass-card hover:bg-white/10"
@@ -81,15 +82,18 @@ const Hero = () => {
               </a>
             </Button>
             
-            <Button
+         <Button
               variant="outline"
               className="glass-card hover:bg-white/10"
               asChild
             >
-              <a href="https://databall.substack.com" target="_blank" rel="noopener noreferrer">
-                <Globe className="mr-2 h-4 w-4" />
-                Website
-              </a>
+              <a 
+              href="./docs/Davide_Tissino_CV.pdf" 
+              target="_blank"
+              className="text-sm px-4 py-2 rounded-md glass-card hover:bg-white/10 transition-colors"
+            >
+              Resume
+            </a>
             </Button>
           </motion.div>
         </motion.div>

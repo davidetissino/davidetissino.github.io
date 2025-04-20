@@ -5,13 +5,13 @@ import { Calendar } from "lucide-react";
 const experiences = [
   {
     company: "Levi Strauss & Co.",
-    role: "Data Analyst",
+    role: "Data Analyst Intern",
     period: "September 2024 - Present",
     description: "Developing data products for internal use at European and global level.",
     achievements: [
-      "Project Blue: own and maintain PowerBI dashboards tracking key business metrics of Levi's X Beyonce's 'REIIMAGINE' campaign",
-      "Launch Tracker: work with BigQuery and Looker Studio to develop reporting tool tracking Franchise Partners' allocation status for upcoming seasons amid major logistic distruptions and DC transition at European level",
-      "LEVI.COM: develop tracking tool focusing on Levi's DTC performance at European level"
+      "Project Blue: own and maintain dashboard tracking Levi's 'REIIMAGINE' partnership with Beyoncé. Built end-to-end pipeline from BigQuery SQL extraction to PowerBI visual",
+      "Launch Tracker: automated franchisee order/shipment tracking by integrating SQL data into weekly-updated PowerBI dashboard. Ensured logistics transparency amid supply chain distruptions due to DC transition at European level",
+      "LEVI.COM: own and maintain fully automated internal reporting tool for Levi's European e-commerce business, replacing legacy Excel reports"
     ], 
     logo: "./img/LEVIS.jpeg",
     link: "https://www.levistrauss.com"
@@ -19,39 +19,50 @@ const experiences = [
   {
     company: "Innovis VC",
     role: "Venture Analyst",
-    period: "September 2022 - Present",
-    description: "Analyzing European startups and helping connect them with potential investors.",
+    period: "March 2024 - October 2024",
+    description: "Association operating at the intersection of startups, students and investors.",
     achievements: [
-      "Performing due diligence and market research for investment opportunities",
-      "Evaluating startups across various sectors and stages",
-      "Building relationships with founders and investors"
+      "Weekly startup sourcing and due diligence to identify target investment opportunities for association's partners",
+      "Startup pitching and presentation to other members, interacting with founders",
     ],
-    logo: "./assets/img/Innovis.png",
+    logo: "./img/Innovis.png",
     link: "https://www.innovis.vc"
   },
   {
     company: "Silicon Valley Fellowship",
     role: "Fellow",
-    period: "June 2022 - August 2022",
-    description: "Participated in a selective program connecting students with Silicon Valley startups.",
+    period: "February 2024",
+    description: "Selective tech-focused bootcamp in Silicon Valley, California",
     achievements: [
-      "Networked with industry professionals and founders",
-      "Gained insights into the startup ecosystem"
+      "Networked with industry-leading professionals and founders",
+      "Gained insights into the Startup and Venture Capital ecosystem", 
+      "Visited world-class tech companies like Google, Tesla and other relevant startups"
     ],
-    logo: "./assets/img/SVF.png",
+    logo: "./img/SVF.png",
     link: "https://www.siliconvalleyfellowship.com"
   },
   {
-    company: "BSVC",
+    company: "Bocconi Students for Venture Capital",
     role: "Member",
-    period: "January 2021 - May 2022",
+    period: "June 2023 - March 2024",
     description: "Participated in student-led venture capital activities.",
     achievements: [
-      "Analyzed potential investment opportunities",
-      "Contributed to investment decision-making processes"
+      "Analysis of the current state of VC, current trends and developments"
     ],
-    logo: "./assets/img/BSVC.png",
+    logo: "./img/BSVC.png",
     link: "https://www.bsvc.club"
+  },
+  {
+    company: "Camera di Commercio di Pordenone - Udine",
+    role: "Analyst Intern",
+    period: "January 2020",
+    description: "Analyses of local Small-Medium Enterprises (SMEs) in the region",
+    achievements: [
+      "Collected data on several local enterprises looking to qualify for funding opportunities", 
+      "Reporting of primary insights through Microsoft Excel"
+    ],
+    logo: "./img/cameracommercio.jpeg",
+    link: "https://pnud.camcom.it"
   }
 ];
 

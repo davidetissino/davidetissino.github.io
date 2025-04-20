@@ -1,27 +1,38 @@
 import { motion } from "framer-motion";
-import { Code2, Database, ChartBar, Laptop, BrainCircuit, Gem } from "lucide-react";
+import {
+  Code2,
+  Database,
+  BarChart3,
+  Laptop2,
+  Rocket,
+  Search,
+  PieChart,
+  Scale,
+  FileSpreadsheet,
+  Briefcase
+} from "lucide-react";
 
 const skillCategories = [
   {
     title: "Data Science & Analytics",
-    icon: "chart-line",
+    icon: Code2,
     skills: [
-      { name: "Web Scraping", icon: "chart-line" },
-      { name: "Data Cleaning & Analysis", icon: "database" },
-      { name: "Data Visualization", icon: "chart-bar" },
-      { name: "Data Applications", icon: "laptop-code" }
+      { name: "Web Scraping", icon: Rocket },
+      { name: "Data Cleaning & Analysis", icon: Database },
+      { name: "Data Visualization", icon: BarChart3 },
+      { name: "Data Applications", icon: Laptop2 }
     ]
   },
   {
     title: "Business & Strategy",
-    icon: "briefcase",
+    icon: Briefcase,
     skills: [
-      { name: "Start-ups", icon: "rocket" },
-      { name: "Sourcing", icon: "search" },
-      { name: "Venture Capital", icon: "chart-pie" },
-      { name: "Investment Decisions", icon: "balance-scale" },
-      { name: "Business Planning", icon: "tasks" },
-      { name: "MS Office", icon: "file-excel" }
+      { name: "Start-ups", icon: Rocket },
+      { name: "Sourcing", icon: Search },
+      { name: "Venture Capital", icon: PieChart },
+      { name: "Investment Decisions", icon: Scale },
+      { name: "Business Planning", icon: FileSpreadsheet },
+      { name: "MS Office", icon: FileSpreadsheet }
     ]
   }
 ];
@@ -62,7 +73,7 @@ const Skills = () => {
                     transition={{ delay: index * 0.1 + categoryIndex * 0.2 }}
                     viewport={{ once: true }}
                   >
-                    <i className={`fas fa-${skill.icon} mr-2 text-blue-400`}></i>
+                    <skill.icon className="w-5 h-5 mr-2 text-blue-400" />
                     <span className="text-sm">{skill.name}</span>
                   </motion.div>
                 ))}
