@@ -33,9 +33,15 @@ const About = () => {
               <div className="glass-card p-6 rounded-lg space-y-4">
                 <h2 className="text-2xl font-bold text-gradient">Hi, I'm Davide!👋</h2>
                 <div className="space-y-4 text-gray-300">
-                  <p className="font-mono">
-                    const interests = "data analytics & science, entrepreneurship, basketball";
-                  </p>
+                <p className="font-mono">
+                  <span className="text-green-400">const</span>{" "}
+                  <span className="text-purple-400">interests</span>{" "}
+                   ={" "}
+                  <span className="text-yellow-300">
+                     "data analytics & science, entrepreneurship, basketball";
+                  </span>
+                </p>
+
                   <p>
                     I recently graduated from Bocconi University, in Milan 🇮🇹. During my academic journey, 
                     I was exposed to foundations of computer science and data analytics, primarily through 
