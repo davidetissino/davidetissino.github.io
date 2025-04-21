@@ -17,7 +17,7 @@ const About = () => {
               className="relative"
             >
               <img
-                src="./img/fotoseria.png"
+                src="/img/fotoseria.png"
                 alt="Davide Tissino"
                 className="rounded-lg w-full object-cover glass-card"
               />

@@ -13,7 +13,7 @@ const experiences = [
       "Launch Tracker: automated franchisee order/shipment tracking by integrating SQL data into weekly-updated PowerBI dashboard. Ensured logistics transparency amid supply chain distruptions due to DC transition at European level",
       "LEVI.COM: own and maintain fully automated internal reporting tool for Levi's European e-commerce business, replacing legacy Excel reports"
     ], 
-    logo: "./img/LEVIS.jpeg",
+    logo: "/img/LEVIS.jpeg",
     link: "https://www.levistrauss.com"
   },
   {
@@ -25,7 +25,7 @@ const experiences = [
       "Weekly startup sourcing and due diligence to identify target investment opportunities for association's partners",
       "Startup pitching and presentation to other members, interacting with founders",
     ],
-    logo: "./img/Innovis.png",
+    logo: "/img/Innovis.png",
     link: "https://www.innovis.vc"
   },
   {
@@ -38,7 +38,7 @@ const experiences = [
       "Gained insights into the Startup and Venture Capital ecosystem", 
       "Visited world-class tech companies like Google, Tesla and other relevant startups"
     ],
-    logo: "./img/SVF.png",
+    logo: "/img/SVF.png",
     link: "https://www.siliconvalleyfellowship.com"
   },
   {
@@ -49,7 +49,7 @@ const experiences = [
     achievements: [
       "Analysis of the current state of VC, current trends and developments"
     ],
-    logo: "./img/BSVC.png",
+    logo: "/img/BSVC.png",
     link: "https://www.bsvc.club"
   },
   {
@@ -61,7 +61,7 @@ const experiences = [
       "Collected data on several local enterprises looking to qualify for funding opportunities", 
       "Reporting of primary insights through Microsoft Excel"
     ],
-    logo: "./img/cameracommercio.jpeg",
+    logo: "/img/cameracommercio.jpeg",
     link: "https://pnud.camcom.it"
   }
 ];

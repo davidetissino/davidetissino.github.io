@@ -13,7 +13,7 @@ const Navbar = () => {
             <a href="#skills" className="text-sm text-gray-300 hover:text-white transition-colors">Skills</a>
             <a href="#projects" className="text-sm text-gray-300 hover:text-white transition-colors">Projects</a>
             <a 
-              href="./docs/Davide_Tissino_CV.pdf" 
+              href="/docs/Davide_Tissino_CV.pdf" 
               target="_blank"
               className="text-sm px-4 py-2 rounded-md glass-card hover:bg-white/10 transition-colors"
             >

@@ -88,7 +88,7 @@ const Hero = () => {
               asChild
             >
               <a 
-              href="./docs/Davide_Tissino_CV.pdf" 
+              href="/docs/Davide_Tissino_CV.pdf" 
               target="_blank"
               className="text-sm px-4 py-2 rounded-md glass-card hover:bg-white/10 transition-colors"
             >
