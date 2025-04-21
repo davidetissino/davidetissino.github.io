@@ -13,7 +13,7 @@ const projects = [
     title: "Data Visualization Gallery",
     description: "A collection of NBA data visualizations created using R with packages like rvest, httr, tidyverse, and ggplot. Each visualization is linked to corresponding tweets.",
     image: "/img/gallery.png",
-    link: "./src/components/gallery.html",
+    link: "/src/components/gallery.html",
     icon: "🎨"
   },
   {

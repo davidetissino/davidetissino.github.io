@@ -1,1 +1,1 @@
-The following repository contains the codebase for my personal portfolio website, available at [davidetissino.github.io](davidetissino.github.io)
+The following repository contains the codebase for my personal portfolio website, available at [davidetissino.github.io](https://davidetissino.github.io)
