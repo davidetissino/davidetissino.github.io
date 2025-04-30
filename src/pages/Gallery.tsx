@@ -89,7 +89,7 @@ const Gallery = () => {
           <div className="gallery-column bg-white/5 border border-white/10 rounded-lg overflow-hidden hover:-translate-y-1 transition-transform">
             <p className="text-center p-4 text-lg">MVP on-off Differential</p>
             <a href="https://twitter.com/dvdtssn/status/1728116264223088850/photo/1" target="_blank" className="block">
-              <img src="/img/graphs/MVP on-off.png" alt="MVP on-off Differential" className="w-full h-auto" />
+              <img src="public/img/graphs/MVP on-off.png" alt="MVP on-off Differential" className="w-full h-auto" />
               <p className="text-center py-3 bg-blue-900/30 text-blue-400">View on Twitter</p>
             </a>
           </div>
