@@ -38,23 +38,23 @@ const About = () => {
                   <span className="text-purple-400">interests</span>{" "}
                    ={" "}
                   <span className="text-yellow-300">
-                     "data analytics & science, entrepreneurship, basketball";
+                     "data science & analytics, sports, entrepreneurship";
                   </span>
                 </p>
-
                   <p>
-                    I recently graduated from Bocconi University, in Milan 🇮🇹. During my academic journey, 
-                    I was exposed to foundations of computer science and data analytics, primarily through 
-                    programming languages R and Python.
+                    I am currently enrolled in the Specializing Master in 
+                    <span className="text-cyan-400">Business Analytics and Data Science</span> at Politecnico di Milano 🇮🇹 
+                    Graduate School of Management. 
                   </p>
                   <p>
-                    This fostered my interest for data analytics and data science, and subsequently led me 
-                    to pursue an internship as <span className="text-cyan-400">Data Analyst</span>, working for 
-                    Levi Strauss & Co.
+                    During my Bachelor's Degree at Bocconi University, I was exposed to foundations of 
+                    computer science and data analytics, primarily through programming languages R and Python.
                   </p>
                   <p>
-                    I am interested by the Start-ups and Venture Capital sectors, and have thus taken on a 
-                    role as a <span className="text-cyan-400">Venture Analyst</span> at Innovis VC.
+                    This fostered my interest for data analytics, which I initially pursued as a hobby in my free 
+                    time, focusing primarily on NBA basketball. Having developed quite strong analytical and technical 
+                    skills, I then decided to pursue an internship as <span className="text-cyan-400">Data Analyst</span>,
+                    working for Levi Strauss & Co. in its Milan office. 
                   </p>
                   <p>
                     Being an avid basketball enthusiast, in my free time I enjoy creating data visualizations 

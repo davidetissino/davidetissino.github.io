@@ -9,30 +9,39 @@ import {
   PieChart,
   Scale,
   FileSpreadsheet,
-  Briefcase
+  Briefcase, 
+  ChartCandlestick, 
+  Binary, 
+  SquareCode,
+  ChartNoAxesColumnIncreasing, 
+  BrainCircuit, 
+  ChartScatter
 } from "lucide-react";
 
 const skillCategories = [
   {
-    title: "Data Science & Analytics",
+    title: "Data Science",
     icon: Code2,
     skills: [
       { name: "Web Scraping", icon: Rocket },
-      { name: "Data Cleaning & Analysis", icon: Database },
+      { name: "Data Processing", icon: ChartScatter },
       { name: "Data Visualization", icon: BarChart3 },
-      { name: "Data Applications", icon: Laptop2 }
+      { name: "Data Applications", icon: Laptop2 }, 
+      { name: "Machine Learning", icon: BrainCircuit }, 
+      { name: "Data Warehousing", icon: Database }
     ]
   },
   {
-    title: "Business & Strategy",
+    title: "Technical Stack",
     icon: Briefcase,
     skills: [
-      { name: "Start-ups", icon: Rocket },
-      { name: "Sourcing", icon: Search },
-      { name: "Venture Capital", icon: PieChart },
-      { name: "Investment Decisions", icon: Scale },
-      { name: "Business Planning", icon: FileSpreadsheet },
-      { name: "MS Office", icon: FileSpreadsheet }
+      { name: "R", icon: ChartCandlestick },
+      { name: "Python", icon: Binary },
+      { name: "SQL", icon: SquareCode },
+      { name: "BigQuery", icon: Database },
+      { name: "MS PowerBI", icon: ChartNoAxesColumnIncreasing },
+      { name: "Google Looker", icon: PieChart},
+      { name: "Excel", icon: FileSpreadsheet }
     ]
   }
 ];

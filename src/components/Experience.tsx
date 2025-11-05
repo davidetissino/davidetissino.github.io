@@ -6,7 +6,7 @@ const experiences = [
   {
     company: "Levi Strauss & Co.",
     role: "Data Analyst Intern",
-    period: "September 2024 - Present",
+    period: "September 2024 - September 2025",
     description: "Developing data products for internal use at European and global level.",
     achievements: [
       "Project Blue: own and maintain dashboard tracking Levi's 'REIIMAGINE' partnership with Beyoncé. Built end-to-end pipeline from BigQuery SQL extraction to PowerBI visual",
