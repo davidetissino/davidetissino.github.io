@@ -43,7 +43,7 @@ const About = () => {
                 </p>
                   <p>
                     I am currently enrolled in the Specializing Master in 
-                    <span className="text-cyan-400">Business Analytics and Data Science</span> at Politecnico di Milano 🇮🇹 
+                    <span className="text-cyan-400"> Business Analytics and Data Science</span> at Politecnico di Milano 🇮🇹 
                     Graduate School of Management. 
                   </p>
                   <p>

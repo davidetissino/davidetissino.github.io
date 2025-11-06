@@ -28,7 +28,7 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3 }}
           >
-            Data Science @ PoliMi GSoM | Data Analyst @ Levi's | Sports Analytics Enthusiast
+            Data Science @ PoliMi | Data Analyst @ Levi's | Sports Analytics
           </motion.h2>
           
           <motion.p 
@@ -37,7 +37,7 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4 }}
           >
-            Current PoliMi graduate student in Data Science, with a passion for entrepreneurship and programming. 
+            PoliMi graduate student in Data Science, with a passion for entrepreneurship and programming. 
             <br/>
             Data Analyst background at Levi Strauss, developing data products for European and global markets. 
             <br/>

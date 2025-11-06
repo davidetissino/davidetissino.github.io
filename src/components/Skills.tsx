@@ -15,7 +15,8 @@ import {
   SquareCode,
   ChartNoAxesColumnIncreasing, 
   BrainCircuit, 
-  ChartScatter
+  ChartScatter,
+  FileTerminal
 } from "lucide-react";
 
 const skillCategories = [
@@ -36,7 +37,7 @@ const skillCategories = [
     icon: Briefcase,
     skills: [
       { name: "R", icon: ChartCandlestick },
-      { name: "Python", icon: Binary },
+      { name: "Python", icon: FileTerminal },
       { name: "SQL", icon: SquareCode },
       { name: "BigQuery", icon: Database },
       { name: "MS PowerBI", icon: ChartNoAxesColumnIncreasing },
