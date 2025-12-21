@@ -7,13 +7,13 @@ const Hero = () => {
   return (
     <div className="min-h-screen flex items-center justify-center px-4">
       <div className="max-w-4xl w-full">
-        <motion.div 
+        <motion.div
           className="glass-card p-8 rounded-lg space-y-6 text-center"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <motion.h1 
+          <motion.h1
             className="text-5xl md:text-6xl font-bold text-gradient"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -21,36 +21,36 @@ const Hero = () => {
           >
             Davide Tissino
           </motion.h1>
-          
-          <motion.h2 
+
+          <motion.h2
             className="text-xl md:text-2xl text-gray-400"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3 }}
           >
-            Data Science @ PoliMi | Data Analyst @ Levi's | Sports Analytics
+            Data Science @ PoliMi | Previously @ Levi's | Sports Analytics
           </motion.h2>
-          
-          <motion.p 
+
+          <motion.p
             className="text-gray-400 max-w-2xl mx-auto"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4 }}
           >
-            PoliMi graduate student in Data Science, with a passion for entrepreneurship and programming. 
-            <br/>
-            Data Analyst background at Levi Strauss, developing data products for European and global markets. 
-            <br/>
-            Passionate about basketball, I'm trying to combine it with data to one day break into the sports analytics sector.
+            Data Science student at PoliMi, passionate about programming and entrepreneurship.
+            <br />
+            Former Data Analyst at Levi's, developing data products for European and global markets.
+            <br />
+            Trying to combine passion for basketball with data, to one day break into sports analytics.
           </motion.p>
-          
-          <motion.div 
+
+          <motion.div
             className="flex justify-center gap-4 flex-wrap"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5 }}
           >
-            
+
             <Button
               variant="outline"
               className="glass-card hover:bg-white/10"
@@ -83,19 +83,19 @@ const Hero = () => {
                 Email
               </a>
             </Button>
-            
-         <Button
+
+            <Button
               variant="outline"
               className="glass-card hover:bg-white/10"
               asChild
             >
-              <a 
-              href="/Davide_Tissino_CV.pdf" 
-              target="_blank"
-              className="text-sm px-4 py-2 rounded-md glass-card hover:bg-white/10 transition-colors"
-            >
-              Resume
-            </a>
+              <a
+                href="/Davide_Tissino_CV.pdf"
+                target="_blank"
+                className="text-sm px-4 py-2 rounded-md glass-card hover:bg-white/10 transition-colors"
+              >
+                Resume
+              </a>
             </Button>
           </motion.div>
         </motion.div>
