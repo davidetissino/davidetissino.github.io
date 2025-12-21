@@ -87,6 +87,15 @@ const Gallery = () => {
 
         <div className="gallery-row max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="second-row">
           <div className="gallery-column bg-white/5 border border-white/10 rounded-lg overflow-hidden hover:-translate-y-1 transition-transform">
+            <p className="text-center p-4 text-lg">Rotation and Margin Plot</p>
+            <a href="https://x.com/davidetissi/status/1788683960064590041?s=12" target="_blank" className="block">
+              <img src="/img/graphs/OKC_DAL_GM7.png" alt="Game Rotation and Margin Plot" className="w-full h-auto" />
+              <p className="text-center py-3 bg-blue-900/30 text-blue-400">View (similar) on X</p>
+            </a>
+          </div>
+
+
+          <div className="gallery-column bg-white/5 border border-white/10 rounded-lg overflow-hidden hover:-translate-y-1 transition-transform">
             <p className="text-center p-4 text-lg">Rosters' Composition</p>
             <a href="https://x.com/davidetissi/status/1849175836449992760?s=46" target="_blank" className="block">
               <img src="/img/graphs/Roster_Composition.png" alt="Roster Composition" className="w-full h-auto" />
