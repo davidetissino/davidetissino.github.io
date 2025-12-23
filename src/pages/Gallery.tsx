@@ -238,4 +238,27 @@ const Gallery = () => {
   );
 };
 
-export default Gallery;
+export default Gallery; export const projects = [
+  {
+    title: "NBA Box Scores Query",
+    description: "Developed a Shiny App using R to display all NBA Regular Season and Playoffs box scores, scraped starting from the 1946-47 season. Includes player filter and text filter for custom sorting.",
+    image: "/img/boxscores.png",
+    link: "https://davidetissino.shinyapps.io/NBA_Boxscores_Query/",
+    icon: "📊"
+  },
+  {
+    title: "Data Visualization Gallery",
+    description: "A collection of NBA data visualizations created using R with packages like rvest, httr, tidyverse, and ggplot. Each visualization is linked to corresponding tweets.",
+    image: "/img/gallery.png",
+    link: <Link to="/gallery" className="text-sm text-gray-300 hover:text-white transition-colors">Gallery</Link>,
+    icon: "🎨"
+  },
+  {
+    title: "Shot Chart Analyzer",
+    description: "Working on a Shiny App to showcase NBA players' shot charts with various visualization options, including efficiency comparisons and career period analysis.",
+    image: "/img/progress.jpg",
+    icon: "🔥",
+    inProgress: true
+  }
+];
+
